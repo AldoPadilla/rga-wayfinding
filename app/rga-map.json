@@ -1,0 +1,265 @@
+{
+	"mapwidth": "2000",
+	"mapheight": "2000",
+	"categories": [
+		{
+			"id": "departments",
+			"title": "Departments",
+			"color": "grey",
+			"show": "true"
+		},
+				{
+			"id": "conference",
+			"title": "Conference Rooms",
+			"color": "red",
+			"show": "true"
+		}
+
+	],
+	"levels": [
+		{
+			"id": "lower",
+			"title": "Lower floor",
+			"map": "images/rga-map/lower.jpg",
+			"minimap": "images/rga-map/lower-small.jpg",
+			"locations": [
+				{
+					"id": "stairs",
+					"title": "You are here",
+					"about": "Stairs",				
+					"description": "",
+					"category": "departments",
+					"x": "0.5286",
+					"y": "0.6226",
+					"zoom": "3",
+					"pin": "red"	
+				},
+				{
+					"id": "accelerator",
+					"title": "Accelerator",
+					"about": "",
+					"description": "",
+					"category": "departments",
+					"x": "0.9169",
+					"y": "0.7366",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "contentstudio",
+					"title": "Content Studio",
+					"about": "",
+					"description": "",
+					"category": "departments",
+					"x": "0.4119",
+					"y": "0.5920",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "finance",
+					"title": "Finance",
+					"about": "",
+					"description": "",
+					"category": "departments",
+					"x": "0.2470",
+					"y": "0.7747",
+					"zoom": "3",
+					"pin": "hidden"
+				},			
+				{
+					"id": "helpdesk",
+					"title": "Help Desk",
+					"about": "",
+					"description": "<p>Call (866)215-4222 or email at helpdesk@rga.com</p>",
+					"category": "departments",
+					"pin": "hidden",
+					"x": "0.1232",
+					"y": "0.5609",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+
+				{
+					"id": "humanresources",
+					"title": "Human Resources",
+					"about": "",
+					"description": "",
+					"category": "departments",
+					"x": "0.2184",
+					"y": "0.7311",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "prototypestudio",
+					"title": "Prototype Studio",
+					"about": "",
+					"description": "",
+					"category": "departments",
+					"x": "0.3911",
+					"y": "0.7146",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+
+				{
+					"id": "11a1",
+					"title": "11A.1 (Light Orange)",
+					"about": "Large – Capacity 12",
+					"description": "Large</br> Capacity 12",
+					"category": "conference",
+					"x": "0.3280",
+					"y": "0.8523",
+					"zoom": "3",
+					"pin": "hidden"
+				},	
+				{
+					"id": "11a2",
+					"title": "11A.2 (Ultramarine)",
+					"about": "Small – Capacity 5",
+					"description": "Small</br> Capacity 5",
+					"category": "conference",
+					"x": "0.3601",
+					"y": "0.7726",
+					"zoom": "3",
+					"pin": "hidden"
+				},				
+				{
+					"id": "11a3",
+					"title": "11A.3 (Ochre)",
+					"about": "Small – Capacity 4",
+					"description": "Small</br> Capacity 4",
+					"category": "conference",
+					"x": "0.1650",
+					"y": "0.7714",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "11b1",
+					"title": "11B.1 (Crimson)",
+					"about": "Small – Capacity 4",
+					"description": "Small</br> Capacity 4",
+					"category": "conference",
+					"x": "0.1553",
+					"y": "0.6863",
+					"zoom": "3",
+					"pin": "hidden"
+				},	
+				{
+					"id": "11c1",
+					"title": "11C.1 (Cobalt Blue)",
+					"about": "Small – Capacity 4",
+					"description": "Small</br> Capacity 4",
+					"category": "conference",
+					"x": "0.2691",
+					"y": "0.5433",
+					"zoom": "3",
+					"pin": "hidden"
+				},	
+				{
+					"id": "11c2",
+					"title": "11C.2 (Coral)",
+					"about": "Small – Capacity 4",
+					"description": "Small</br> Capacity 4",
+					"category": "conference",
+					"x": "0.0440",
+					"y": "0.5175",
+					"zoom": "3",
+					"pin": "hidden"
+				},				
+				{
+					"id": "11c3",
+					"title": "11C.3",
+					"about": "",
+					"description": "",
+					"category": "conference",
+					"x": "0.1714",
+					"y": "0.4943",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+								{
+					"id": "11c4",
+					"title": "11C.4 (Scarlet Red)",
+					"about": "XL – Capacity 16",
+					"description": "XL</br> Capacity 16",
+					"category": "conference",
+					"x": "0.2052",
+					"y": "0.4448",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+								{
+					"id": "11c5",
+					"title": "11C.5 (Light Yellow)",
+					"about": "XL – Capacity 16",
+					"description": "XL</br> Capacity 16",
+					"category": "conference",
+					"x": "0.2929",
+					"y": "0.4395",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+								{
+					"id": "11c6",
+					"title": "11C.6",
+					"about": "XL – Capacity 12",
+					"description": "XL</br> Capacity 12",
+					"category": "conference",
+					"x": "0.3756",
+					"y": "0.4341",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+								{
+					"id": "11c7",
+					"title": "11C.7 (Dark Blue)",
+					"about": "XL – Capacity 12",
+					"description": "XL</br> Capacity 12",
+					"category": "conference",
+					"x": "0.4596",
+					"y": "0.4270",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "11e2",
+					"title": "11E.2 (Light Pink)",
+					"about": "Medium – Capacity 8",
+					"description": "Medium</br> Capacity 8",
+					"category": "conference",
+					"x": "0.8248",
+					"y": "0.6282",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "11e3",
+					"title": "11E.3 (Dark Red)",
+					"about": "Medium – Capacity 8",
+					"description": "Medium</br> Capacity 8",
+					"category": "conference",
+					"x": "0.7947",
+					"y": "0.6038",
+					"zoom": "3",
+					"pin": "hidden"
+				},
+				{
+					"id": "11e4",
+					"title": "11E.4 (Dark Yellow)",
+					"about": "Medium – Capacity 8",
+					"description": "Medium</br> Capacity 8",
+					"category": "conference",
+					"x": "0.7733",
+					"y": "0.5860",
+					"zoom": "3",
+					"pin": "hidden"
+				}
+
+			]
+		}
+
+	]
+}
